@@ -1,0 +1,64 @@
+#mainHanding{
+    font-size: 200%;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: gray;
+    border-radius: 20px;
+    text-align: center;
+}
+#tiger-1 {
+    width: 30%;
+    min-width: 300px;
+    height: 300px;
+    background-color: rgb(16, 12, 10);
+    color: rgb(192, 163, 163); 
+    border-radius: 20px;  
+}
+
+#fox {
+    width: 30%;
+    max-width: 500px;
+    height: 300px;
+    background-color: burlywood;
+    border-radius: 20px; 
+}
+
+body {
+    background-color: cyan;
+    #mainHanding{
+        color:navy;
+        font-family:'Times New Roman', Times, serif;
+        border-radius: 10px;
+        border: 3rem solid;
+
+    }
+}
+@media only screen and (min-width:500px) and (max-width:700px){
+    body{
+        background-color:hotpink;
+    }
+    #mainHanding{
+        color: rgb(223, 104, 104);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: brown;
+    }
+    #mainHanding{
+         color: green;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+    body {
+        background-color:navy;
+    }
+    #mainHanding{
+         color: burlywood;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
